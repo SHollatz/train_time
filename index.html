@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Train Time</title>
+    <link rel="resetsheet" type="text/css" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+SC" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    
+</head>
+
+<body>
+    <header class="container-header">
+        <h1>It's Train Time!</h1>
+        <h3>&#9835; On a steel horse I riiide &#9834;</h3>
+    </header>
+
+    <main>
+        <div class="container-main">
+            <h2>Current Train Schedule</h2>
+            <table class = "table">
+                    <thead>
+                        <tr>
+                                <th scope = "col">Train Name</th>
+                                <th scope = "col">Destination</th>
+                                <th scope = "col">Frequency {min}</th>
+                                <th scope = "col">Next Arrival</th>
+                                <th scope = "col">Minutes Away</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+            </table>
+        </div>
+        <div class="container-main">
+            <h2>Add Train</h2>
+            <div class="input">
+                <label for="train-name-input">Train Name</label><br>
+                <input class="input-text" id="train-name-input" type="text">
+            </div>
+            <div class="input">
+                <label for="destination-input">Destination</label><br>
+                <input class="input-text" id="destination-input" type="text">
+
+            </div>
+            <div class="input">
+                <label for="first-train-input">First Train Time {HH:mm - military time}</label><br>
+                <input class="input-text" id="first-train-input" type="text">
+
+            </div>
+            <div class="input">
+                <label for="frequency-input">Frequency {min}</label><br>
+                <input class="input-text" id="frequency-input" type="text">
+                <br><br>
+                <button id"add-train" type="submit">Submit</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src='assets/javascript/app.js' type='text/javascript'></script>
+</body>
+
+</html>

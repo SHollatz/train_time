@@ -1,0 +1,85 @@
+body {
+    width: 960px;
+    font-family: Cormorant;
+}
+
+.container-header {
+    padding-top: 50px;
+    text-align: center;
+    width: 960px;
+    height: 200px;
+    color: white;
+    border: 1px solid #71737a;
+    border-radius: 5px;
+    background: linear-gradient(to top left, #d6d7da, #71737a, #2a2b2e);
+}
+
+.container-main {
+    width: 960px;
+    height: 33%;
+    border: 1px solid #71737a;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    background: linear-gradient(to top left, #d6d7da, #71737a, #2a2b2e);
+    color:white;
+    line-height: 1.5;
+    margin-top: 0;
+    padding-left: 5px;
+}
+
+.input {
+    width: 900px;
+    margin: 10px 10px 10px 15px;
+    font-size: 16px;
+}
+
+.input-text {
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-left: 5px;
+    margin: 5px 0 10px 0;
+}
+
+label {
+    color: #2a2b2e;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(to top left, #d6d7da, #71737a, #2a2b2e);
+    box-shadow: 0 2px black;
+    color: white;
+}
+
+button:hover {
+    background-color: #999;
+}
+button:active {
+    background-color: darkgrey;
+    color: black;
+    box-shadow: 0 1px #2a2b2e;
+    transform: translateY(4px);
+}
+
+table {
+    padding-left: 20px;
+    text-align: left;
+}
+
+th {
+    width: 200px;
+}
